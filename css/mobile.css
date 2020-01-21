@@ -1,0 +1,85 @@
+.overlay{
+ background: rgba(0,0,0,.65);
+}
+.l-heading{
+  font-size:2.2rem;
+}
+
+.m-heading{
+  font-size: 1.8rem;
+}
+
+.m-text {
+  font-size: 1rem;
+  line-height: normal;
+}
+
+.emp-text{
+  font-size: 4rem;
+}
+
+#nav {
+  display: none;
+}
+
+#header {
+  width: 100vw;
+  height: 100vh;
+}
+
+#header h1 {
+  font-size: 1.5rem;
+  line-height: 4rem;
+}
+
+#package-container {
+  flex-direction: column;
+  width: 100vw;
+  margin: none;
+  justify-content: none;
+}
+
+.package-option {
+  padding: 1rem 0rem;
+}
+
+#what p{
+  width: 85vw;
+  margin: 0rem auto;
+}
+
+#who-textbox {
+  width: 90vw;
+  background-color: rgba(0,0,0,0);
+  color: #f4f4f4;
+  padding: 0;
+  border: none;
+  margin: 1.5rem;
+}
+
+.form-container{
+  padding: 0;
+}
+
+.contact-form{
+  width: 100vw;
+  margin: 0;
+  padding: 2rem 0;
+  font-size: 2rem;
+  border-radius: 0px;
+  text-align: center;
+}
+
+.contact-form ::placeholder {
+  font-size: 1.2rem;
+}
+
+.field{
+  width: 90%;
+}
+
+.btn{
+  width: 90%;
+  font-size: 2rem;
+  font-family: 'Courier Prime', monospace;
+}
